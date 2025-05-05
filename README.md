@@ -102,12 +102,18 @@ After the build process is complete, you will find the executable in the `dist/`
 
 ```
 TB-SERS-Analyzer/
-├── TB-SERS-Analyzer.py           # Main application script
-├── database/CNN_TB_Model.h5      # Trained ML model file
-├── requirements.txt              # Python dependencies
-├── dist/                         # Executable files (after building with PyInstaller)
-├── build/                        # Temporary build files
-└── TB-SERS-Analyzer.spec         # PyInstaller spec file
+├── TB-SERS-Analyzer.py          # Main application script
+├── database/
+│   └── CNN_TB_Model.h5          # Trained ML model file
+├── requirements.txt             # Python dependencies
+├── dist/                        # Executable files (after building with PyInstaller)
+├── build/                       # Temporary build files
+└── TB-SERS-Analyzer.spec        # PyInstaller spec file
+├── blind sample/
+│   └── Blinded #1 on SERS.txt   # Blind samples #1 for testing
+│   └── Blinded #2 on SERS.txt   # Blind samples #2 for testing
+│   └── Blinded #3 on SERS.txt   # Blind samples #3 for testing
+│   └── Blinded #4 on SERS.txt   # Blind samples #4 for testing
 ```
 
 ---
