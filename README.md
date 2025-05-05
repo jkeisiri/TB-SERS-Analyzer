@@ -114,7 +114,10 @@ After building the project using PyInstaller, you can use the standalone applica
 TB-SERS-Analyzer/
 ├── TB-SERS-Analyzer.py          # Main application script
 ├── database/
-│   └── CNN_TB_Model.h5          # Trained ML model file
+│   └── CNN_TB_Model.h5          # Trained 1D-CNN model file
+│   └── scaler.pkl               # Used for scaling data to match the training data
+│   └── wavenumber.txt           # Used for comparing wave or Raman shift values
+│   └── Database_Averaged.csv    # Database for comparing with reference data and new blind samples (intensity)
 ├── css/                         # CSS files for styling
 ├── icon/                        # Icons used in the application
 ├── generate/                    # Templates or files for report generation
