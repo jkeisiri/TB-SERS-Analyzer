@@ -115,6 +115,9 @@ TB-SERS-Analyzer/
 ├── TB-SERS-Analyzer.py          # Main application script
 ├── database/
 │   └── CNN_TB_Model.h5          # Trained ML model file
+├── css/                         # CSS files for styling
+├── icon/                        # Icons used in the application
+├── generate/                    # Templates or files for report generation
 ├── requirements.txt             # Python dependencies
 ├── dist/                        # Executable files (after building with PyInstaller)
 ├── build/                       # Temporary build files
