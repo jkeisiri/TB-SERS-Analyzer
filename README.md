@@ -1,6 +1,6 @@
 # 🧪 TB-SERS Analyzer
 
-**A desktop application for Tuberculosis prediction based on Raman/SERS data and machine learning.**
+**A desktop application for blood plasma analysis enables rapid and cost-effective testing using RS/SERS. It is designed to analyze RS/SERS spectra, demonstrating a high level of agreement with results obtained from IGRA. By integrating RS/SERS techniques with machine learning and convolutional neural network, along with its reporting module, it provides quick analysis with an average processing time of less than ten seconds. This makes it a potentially valuable diagnostic tool for TB screening.**
 
 ---
 
