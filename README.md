@@ -14,8 +14,6 @@
 
 ---
 
----
-
 ## 🖥️ Installation
 
 ### 1. Clone the Repository
@@ -77,7 +75,7 @@ This will create a `.spec` file in the project directory.
 If you need to bundle additional files (e.g., the trained model file `.h5`), open the generated `.spec` file and modify the `datas` section. For example:
 
 ```python
-datas=[('model.h5', '.'), ('requirements.txt', '.')]
+datas=[('database/CNN_TB_Model.h5', '.'), ('requirements.txt', '.')]
 ```
 
 This will ensure that the necessary files are included in the generated executable.
@@ -133,12 +131,7 @@ Check `requirements.txt` for the full list of dependencies.
 
 ## 🧑‍💻 Author
 
-Jakkarin Isiri  
-M.Sc. Biomedical Science, TB-SERS Project  
-[Email / Website / GitHub link here]
+Jukgarin Eisiri  
+M.Sc. Biomedical Science, Khon Kaen University 
+E-mail : jkeisiri@kkumail.com
 
----
-
-## 📄 License
-
-Free for non-commercial use. See `LICENSE` file for more info.
