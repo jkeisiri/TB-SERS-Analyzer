@@ -149,9 +149,10 @@ Check `requirements.txt` for the full list of dependencies.
 ## 📘 User Manual
 After building the project using `PyInstaller`, you can run the application directly from the executable file.
 
-📥 **Download the user manual:** 
+📥 **Download the user manual:**
 
-Click [here](https://github.com/user-attachments/files/20032626/TB-SERS.Analyzer.Manual.pdf) to download the latest user manual and executable file from the **Releases** section.
+
+Click [TB-SERS Analyzer Manual.pdf](https://github.com/user-attachments/files/20033070/TB-SERS.Analyzer.Manual.pdf) to download the latest user manual and executable file from the **Releases** section.
 
 ---
 
