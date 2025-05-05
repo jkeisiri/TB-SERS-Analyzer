@@ -147,12 +147,11 @@ Check `requirements.txt` for the full list of dependencies.
 ---
 
 ## 📘 User Manual
-✅ To run the application:
-Download the executable file from the Releases page.
-Locate TB-SERS-Analyzer.exe inside the downloaded folder.
-Double-click the .exe file to launch the program.
+After building the project using `PyInstaller`, you can run the application directly from the executable file.
 
-Check `TB-SERS-Analyzer.exe` inside the downloaded folder
+📥 **Download the user manual:** 
+
+Click [here](https://github.com/user-attachments/files/20032626/TB-SERS.Analyzer.Manual.pdf) to download the latest user manual and executable file from the **Releases** section.
 
 ---
 
