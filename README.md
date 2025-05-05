@@ -97,17 +97,6 @@ After the build process is complete, you will find the executable in the `dist/`
 
 ---
 
-### 6. User Manual
-
-After building the project using PyInstaller, you can use the standalone application without installing Python.
-
-✅ To run the application:
-- Download the executable file from the `Releases page`.
-- Locate `TB-SERS-Analyzer.exe` inside the downloaded folder.
-- Double-click the `.exe` file to launch the program.
-
----
-
 ## 📂 Project File Structure
 
 ```
@@ -155,6 +144,15 @@ Check `requirements.txt` for the full list of dependencies.
 ## 📸 Screenshot
 ![App Screenshot](https://github.com/user-attachments/assets/689ab44d-eea9-4b1b-83b3-5ca05eab7fa7)
 
+---
+
+## 📘 User Manual
+✅ To run the application:
+Download the executable file from the Releases page.
+Locate TB-SERS-Analyzer.exe inside the downloaded folder.
+Double-click the .exe file to launch the program.
+
+Check `TB-SERS-Analyzer.exe` inside the downloaded folder
 
 ---
 
