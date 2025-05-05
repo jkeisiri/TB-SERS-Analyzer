@@ -20,4 +20,4 @@
 git clone https://github.com/jkeisiri/TB-SERS-Analyzer.git
 cd TB-SERS-Analyzer
 pip install -r requirements.txt
-python app.py
+python TB-SERS-Analyzer.py
