@@ -113,6 +113,13 @@ After building the project using PyInstaller, you can use the standalone applica
 ```
 TB-SERS-Analyzer/
 ├── TB-SERS-Analyzer.py          # Main application script
+├── MultipleDialog.py            # Script for displaying the "Multiple-Sample" dialog in the application
+├── SingleDialog.py              # Script for displaying the "Single-Sample" dialog in the application
+├── AboutDialog.py               # Script for displaying the "About" dialog in the application
+├── DeleteDialog.py              # Script for displaying the "Delete" dialog in the application
+├── EditDialog.py                # Script for displaying the "Edit" dialog in the application
+├── InsertDialog.py              # Script for displaying the "Insert" dialog in the application
+├── ui_open_screen.py            # Script for initializing and opening the main user interface screen
 ├── database/
 │   └── CNN_TB_Model.h5          # Trained 1D-CNN model file
 │   └── scaler.pkl               # Used for scaling data to match the training data
