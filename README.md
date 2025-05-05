@@ -132,6 +132,5 @@ Check `requirements.txt` for the full list of dependencies.
 ## 🧑‍💻 Author
 
 Jukgarin Eisiri  
-M.Sc. Biomedical Science, Khon Kaen University 
-E-mail : jkeisiri@kkumail.com
+M.Sc. Biomedical Science, Khon Kaen University, E-mail : jkeisiri@kkumail.com
 
