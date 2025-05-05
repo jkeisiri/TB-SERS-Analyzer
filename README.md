@@ -9,7 +9,7 @@
 - 🧬 **Predict TB** from Raman/SERS spectral data
 - 📊 **Patient data extraction**
 - 🛠️ **Data preparation** for model analysis
-- 📑 **Diagnostic report generation** (PDF)
+- 📑 **Diagnostic report generation** (`.pdf`)
 - 🤖 **ML and CNN analysis** using trained model (`.h5`)
 
 ---
