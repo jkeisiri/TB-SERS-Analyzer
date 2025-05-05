@@ -131,7 +131,8 @@ Check `requirements.txt` for the full list of dependencies.
 
 ## 📸 Screenshot
 
-![App Screenshot](images/screenshot.png)
+(https://github.com/user-attachments/assets/689ab44d-eea9-4b1b-83b3-5ca05eab7fa7)
+eenshot.png)
 
 ---
 
