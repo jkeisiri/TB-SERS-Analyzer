@@ -1,0 +1,65 @@
+QWidget {
+  background-color: #fff;
+}
+QLabel {
+  border-radius: 8px;
+  color: #464d55;
+  font-weight: 600;
+}
+QLabel#heading {
+  color: #0f1925;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+QLabel#subheading {
+  color: #0f1925;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+QLineEdit {
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+}
+QComboBox {
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+}
+QTextEdit {
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+}
+QTextEdit:focus {
+  border: 1px solid #d0e3ff;
+}
+
+QTextEdit::placeholder {
+  color: #767e89;
+}
+
+QLineEdit:focus {
+  border: 1px solid #d0e3ff;
+}
+
+QLineEdit::placeholder {
+  color: #767e89;
+}
+QPushButton {
+  background-color: #c75f29;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #f8bc9d;
+  padding: 5px 15px;
+  margin-top: 5px;
+  outline: 0px;
+}
+QPushButton:hover,
+QPushButton:focus {
+  background-color: #d86b33;
+  border: 1px solid #c75f29;
+}
