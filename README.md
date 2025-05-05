@@ -21,11 +21,3 @@ git clone https://github.com/jkeisiri/TB-SERS-Analyzer.git
 cd TB-SERS-Analyzer
 pip install -r requirements.txt
 python TB-SERS-Analyzer.py
-
----
-
-## 🛠️ Creating Executable with PyInstaller
-
-If you want to create an executable for the TB-SERS Analyzer project using PyInstaller, follow these steps:
-```bash
-pip install pyinstaller
