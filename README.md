@@ -75,7 +75,7 @@ This will create a `.spec` file in the project directory.
 If you need to bundle additional files (e.g., the trained model file `.h5`), open the generated `.spec` file and modify the `datas` section. For example:
 
 ```python
-datas=[    ('database/', 'database'),('css/', 'css'),('icon/', 'icon'),('generate/', 'generate'),('requirements.txt', '.')]
+datas=[('database/', 'database'),('css/', 'css'),('icon/', 'icon'),('generate/', 'generate'),('requirements.txt', '.')]
 ```
 
 This will ensure that the necessary files are included in the generated executable.
