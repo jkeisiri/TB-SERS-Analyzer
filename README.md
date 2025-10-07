@@ -133,9 +133,14 @@ TB-SERS-Analyzer/
 ## 📈 Requirements
 
 - Python 3.8+
-- PyQt5
-- scikit-learn
-- TensorFlow / Keras
+- fpdf==1.7.2
+- matplotlib==3.7.5
+- pandas==2.0.3
+- peakutils==1.3.5
+- pyinstaller==6.13.0
+- pyqt5==5.15.11
+- scikit-learn==1.3.2
+- tensorflow==2.13.0
 
 Check `requirements.txt` for the full list of dependencies.
 
