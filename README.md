@@ -1,6 +1,6 @@
 # 🧪 TB-SERS Analyzer
 
-**A desktop application for blood plasma analysis enables rapid and cost-effective testing using RS/SERS. It is designed to analyze RS/SERS spectra, demonstrating a high level of agreement with results obtained from IGRA. By integrating RS/SERS techniques with machine learning and convolutional neural network, along with its reporting module, it provides quick analysis with an average processing time of less than ten seconds. This makes it a potentially valuable diagnostic tool for TB screening.**
+**This Python-based tool is designed for blood plasma analysis, enabling rapid and cost-effective testing using Raman spectroscopy (RS) and Surface-enhanced Raman spectroscopy (SERS). It specifically analyzes RS/SERS spectra and has demonstrated a high level of agreement with results obtained from the interferon gamma release assay (IGRA). By integrating RS/SERS techniques with machine learning (ML) and a convolutional neural network (CNN), the software provides quick analysis—with an average processing time of less than ten seconds. Coupled with its reporting module, this makes it a potentially valuable diagnostic tool for tuberculosis (TB) screening.**
 
 ---
 
