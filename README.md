@@ -75,7 +75,7 @@ This will create a `.spec` file in the project directory.
 If you need to bundle additional files (e.g., the trained model file `.h5`), open the generated `.spec` file and modify the `datas` section. For example:
 
 ```python
-datas=[('database/', 'database'),('css/', 'css'),('icon/', 'icon'),('generate/', 'generate'),('requirements.txt', '.')]
+datas=[('app/database', 'app/database'),('app/resources', 'app/resources')]
 ```
 
 This will ensure that the necessary files are included in the generated executable.
@@ -133,14 +133,15 @@ TB-SERS-Analyzer/
 ## 📈 Requirements
 
 - Python 3.8+
-- fpdf==1.7.2
-- matplotlib==3.7.5
-- pandas==2.0.3
-- peakutils==1.3.5
-- pyinstaller==6.13.0
-- pyqt5==5.15.11
-- scikit-learn==1.3.2
+- PyQt5==5.15.11
+- numpy==1.24.3
+- pandas==2.3.3
+- scikit-learn==1.7.2
+- scipy==1.15.3
 - tensorflow==2.13.0
+- pybaselines==1.2.1
+- matplotlib==3.10.8
+- fpdf2==2.8.5
 
 Check `requirements.txt` for the full list of dependencies.
 
