@@ -85,7 +85,7 @@ This will ensure that the necessary files are included in the generated executab
 Now, use the `.spec` file to build the executable:
 
 ```bash
-pyinstaller TB-SERS-Analyzer.spec
+pyinstaller main.spec
 ```
 
 This will generate the standalone executable in the `dist/` folder.
