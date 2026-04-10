@@ -119,8 +119,8 @@ TB-SERS-Analyzer/
 │   │   ├── SingleDialog.py       # Script for individual sample analysis
 │   │   └── ui_open_screen.py     # Script for initializing the main UI screen
 │   ├── utils/                    # Utility functions and helper modules
-│       ├── init.py
-│       └── processing.py         # Utility functions and helper modules for data processing
+│   │   ├── init.py
+│   │   └── processing.py         # Utility functions and helper modules for data processing
 │   ├── init.py
 │   └── main.py                   # Main application entry point script
 ├── reports/                      # Folder for storing exported final reports
