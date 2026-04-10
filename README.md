@@ -160,7 +160,8 @@ After building the project using `PyInstaller`, you can run the application dire
 📥 **Download the user manual:**
 
 
-Click [TB-SERS Analyzer Manual.pdf](https://github.com/user-attachments/files/22749221/TB-SERS.Analyzer.Manual.pdf) to download the latest user manual and executable file from the **Releases** section.
+Click [TB-SERS Analyzer Manual.pdf](https://github.com/user-attachments/files/26635227/TB-SERS.Analyzer.Manual.pdf)
+ to download the latest user manual and executable file from the **Releases** section.
 
 ---
 
