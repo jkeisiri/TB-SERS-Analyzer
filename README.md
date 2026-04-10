@@ -105,8 +105,6 @@ TB-SERS-Analyzer/
 ├── app/
 │   ├── database/
 │   │   ├── CNN_TB_Model.h5       # Trained 1D-CNN model file
-│   │   ├── scaler.pkl            # File used for data scaling/normalization
-│   │   ├── wavenumber.txt        # Reference Raman shift values
 │   │   └── Database_Averaged.csv  # Reference database for intensity comparison
 │   ├── resources/
 │   │   ├── css/                  # Style sheets for UI customization
@@ -121,6 +119,8 @@ TB-SERS-Analyzer/
 │   │   ├── SingleDialog.py       # Script for individual sample analysis
 │   │   └── ui_open_screen.py     # Script for initializing the main UI screen
 │   ├── utils/                    # Utility functions and helper modules
+│       ├── init.py
+│       └── processing.py         # Utility functions and helper modules for data processing
 │   ├── init.py
 │   └── main.py                   # Main application entry point script
 ├── reports/                      # Folder for storing exported final reports
