@@ -101,31 +101,33 @@ After the build process is complete, you will find the executable in the `dist/`
 
 ```
 TB-SERS-Analyzer/
-├── TB-SERS-Analyzer.py          # Main application script
-├── MultipleDialog.py            # Script for displaying the "Multiple-Sample" dialog in the application
-├── SingleDialog.py              # Script for displaying the "Single-Sample" dialog in the application
-├── AboutDialog.py               # Script for displaying the "About" dialog in the application
-├── DeleteDialog.py              # Script for displaying the "Delete" dialog in the application
-├── EditDialog.py                # Script for displaying the "Edit" dialog in the application
-├── InsertDialog.py              # Script for displaying the "Insert" dialog in the application
-├── ui_open_screen.py            # Script for initializing and opening the main user interface screen
-├── database/
-│   └── CNN_TB_Model.h5          # Trained 1D-CNN model file
-│   └── scaler.pkl               # Used for scaling data to match the training data
-│   └── wavenumber.txt           # Used for comparing wave or Raman shift values
-│   └── Database_Averaged.csv    # Database for comparing with reference data and new blind samples (intensity)
-├── css/                         # CSS files for styling
-├── icon/                        # Icons used in the application
-├── generate/                    # Templates or files for report generation
-├── requirements.txt             # Python dependencies
-├── dist/                        # Executable files (after building with PyInstaller)
-├── build/                       # Temporary build files
-└── TB-SERS-Analyzer.spec        # PyInstaller spec file
-├── blind sample/
-│   └── Blinded #1 on SERS.txt   # Blind samples #1 for testing
-│   └── Blinded #2 on SERS.txt   # Blind samples #2 for testing
-│   └── Blinded #3 on SERS.txt   # Blind samples #3 for testing
-│   └── Blinded #4 on SERS.txt   # Blind samples #4 for testing
+├── analysis/                     # โฟลเดอร์เก็บไฟล์รายงานที่ถูกสร้างขึ้น
+├── app/
+│   ├── database/
+│   │   ├── CNN_TB_Model.h5      # โมเดล 1D-CNN ที่ผ่านการเทรนแล้ว
+│   │   ├── scaler.pkl           # ไฟล์สำหรับทำ Scaling ข้อมูล
+│   │   ├── wavenumber.txt       # ค่า Raman shift สำหรับอ้างอิง
+│   │   └── Database_Averaged.csv # ฐานข้อมูลเปรียบเทียบค่า Intensity
+│   ├── resources/
+│   │   ├── css/                 # ไฟล์จัดการรูปแบบหน้าตา (Style sheets)
+│   │   └── icon/                # ไอคอนต่างๆ ที่ใช้ในโปรแกรม
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── AboutDialog.py       # หน้าต่างเกี่ยวกับโปรแกรม
+│   │   ├── DeleteDialog.py      # หน้าต่างยืนยันการลบข้อมูล
+│   │   ├── EditDialog.py        # หน้าต่างแก้ไขข้อมูล
+│   │   ├── InsertDialog.py      # หน้าต่างเพิ่มข้อมูลใหม่
+│   │   ├── MultipleDialog.py    # หน้าต่างวิเคราะห์ตัวอย่างแบบกลุ่ม (Multiple)
+│   │   ├── SingleDialog.py      # หน้าต่างวิเคราะห์ตัวอย่างเดี่ยว (Single)
+│   │   └── ui_open_screen.py    # ส่วนควบคุมการเปิดหน้าจอหลัก
+│   ├── utils/                   # ฟังก์ชันเสริมอื่นๆ
+│   ├── __init__.py
+│   └── main.py                  # ไฟล์หลักสำหรับรันโปรแกรม (EntryPoint)
+├── reports/                     # โฟลเดอร์เก็บไฟล์รายงานที่ถูกสร้างขึ้น
+├── samples/                     # โฟลเดอร์เก็บตัวอย่างไฟล์ทดสอบ (Blind samples)
+├── main.spec                    # ไฟล์ตั้งค่าการ Build ของ PyInstaller
+├── README.md                    # เอกสารอธิบายรายละเอียดโปรแกรม
+└── requirements.txt             # รายการ Python Library ที่ต้องใช้
 ```
 
 ---
