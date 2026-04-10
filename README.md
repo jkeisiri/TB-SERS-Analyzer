@@ -101,7 +101,7 @@ After the build process is complete, you will find the executable in the `dist/`
 
 ```
 TB-SERS-Analyzer/
-├── analysis/                     # Folder for storing generated analysis report files
+├── analysis/                     # Analysis workflow & Code preprocessing pipeline
 ├── app/
 │   ├── database/
 │   │   ├── CNN_TB_Model.h5       # Trained 1D-CNN model file
