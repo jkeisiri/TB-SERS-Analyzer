@@ -101,33 +101,33 @@ After the build process is complete, you will find the executable in the `dist/`
 
 ```
 TB-SERS-Analyzer/
-├── analysis/                     # โฟลเดอร์เก็บไฟล์รายงานที่ถูกสร้างขึ้น
+├── analysis/                     # Folder for storing generated analysis report files
 ├── app/
 │   ├── database/
-│   │   ├── CNN_TB_Model.h5      # โมเดล 1D-CNN ที่ผ่านการเทรนแล้ว
-│   │   ├── scaler.pkl           # ไฟล์สำหรับทำ Scaling ข้อมูล
-│   │   ├── wavenumber.txt       # ค่า Raman shift สำหรับอ้างอิง
-│   │   └── Database_Averaged.csv # ฐานข้อมูลเปรียบเทียบค่า Intensity
+│   │   ├── CNN_TB_Model.h5       # Trained 1D-CNN model file
+│   │   ├── scaler.pkl            # File used for data scaling/normalization
+│   │   ├── wavenumber.txt        # Reference Raman shift values
+│   │   └── Database_Averaged.csv  # Reference database for intensity comparison
 │   ├── resources/
-│   │   ├── css/                 # ไฟล์จัดการรูปแบบหน้าตา (Style sheets)
-│   │   └── icon/                # ไอคอนต่างๆ ที่ใช้ในโปรแกรม
+│   │   ├── css/                  # Style sheets for UI customization
+│   │   └── icon/                 # Icons and graphic assets used in the app
 │   ├── ui/
-│   │   ├── __init__.py
-│   │   ├── AboutDialog.py       # หน้าต่างเกี่ยวกับโปรแกรม
-│   │   ├── DeleteDialog.py      # หน้าต่างยืนยันการลบข้อมูล
-│   │   ├── EditDialog.py        # หน้าต่างแก้ไขข้อมูล
-│   │   ├── InsertDialog.py      # หน้าต่างเพิ่มข้อมูลใหม่
-│   │   ├── MultipleDialog.py    # หน้าต่างวิเคราะห์ตัวอย่างแบบกลุ่ม (Multiple)
-│   │   ├── SingleDialog.py      # หน้าต่างวิเคราะห์ตัวอย่างเดี่ยว (Single)
-│   │   └── ui_open_screen.py    # ส่วนควบคุมการเปิดหน้าจอหลัก
-│   ├── utils/                   # ฟังก์ชันเสริมอื่นๆ
-│   ├── __init__.py
-│   └── main.py                  # ไฟล์หลักสำหรับรันโปรแกรม (EntryPoint)
-├── reports/                     # โฟลเดอร์เก็บไฟล์รายงานที่ถูกสร้างขึ้น
-├── samples/                     # โฟลเดอร์เก็บตัวอย่างไฟล์ทดสอบ (Blind samples)
-├── main.spec                    # ไฟล์ตั้งค่าการ Build ของ PyInstaller
-├── README.md                    # เอกสารอธิบายรายละเอียดโปรแกรม
-└── requirements.txt             # รายการ Python Library ที่ต้องใช้
+│   │   ├── init.py
+│   │   ├── AboutDialog.py        # Script for the "About" dialog window
+│   │   ├── DeleteDialog.py       # Script for the "Delete" confirmation dialog
+│   │   ├── EditDialog.py         # Script for the "Edit" data dialog
+│   │   ├── InsertDialog.py       # Script for the "Insert" new data dialog
+│   │   ├── MultipleDialog.py     # Script for batch/multiple sample analysis
+│   │   ├── SingleDialog.py       # Script for individual sample analysis
+│   │   └── ui_open_screen.py     # Script for initializing the main UI screen
+│   ├── utils/                    # Utility functions and helper modules
+│   ├── init.py
+│   └── main.py                   # Main application entry point script
+├── reports/                      # Folder for storing exported final reports
+├── samples/                      # Folder containing test files and blind samples
+├── main.spec                     # PyInstaller configuration for building the executable
+├── README.md                     # Project documentation and overview
+└── requirements.txt              # List of required Python libraries and dependencies
 ```
 
 ---
